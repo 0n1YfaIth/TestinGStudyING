@@ -100,7 +100,7 @@ public class Main {
                 case 3 -> result = (short) (valueA * valueB);
                 case 4 -> result = (short) (valueA / valueB);
             }
-            if ((index == 1) && result >= 0) {
+            if ((index == 1) && result > 0) {
                 switch (result/10) {
                     case 0 -> valueAString = "";
                     case 1 -> valueAString = "X";
